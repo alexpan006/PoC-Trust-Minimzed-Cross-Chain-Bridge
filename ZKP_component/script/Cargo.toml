@@ -1,0 +1,40 @@
+[package]
+name = "bitcoin_verify_script"
+version = "0.1.0"
+edition = "2021"
+default-run = "bitcoin_verify_script"
+
+
+[dependencies]
+sp1-sdk = {version ="4.2.1", features = ["profiling"] }
+alloy-primitives = { workspace = true }
+serde_json = { version = "1.0.132", default-features = false, features = ["alloc"] }
+serde = { version = "1.0.204", default-features = false, features = ["derive"] }
+clap = { version = "4.0", features = ["derive", "env"] }
+tracing = "0.1.40"
+hex = "0.4.3"
+lib_struct= { path = "../lib" }     
+alloy-sol-types = { workspace = true }
+dotenv = "0.15.0"  
+rand = "0.8"  
+                                     
+
+[build-dependencies]
+sp1-build = "4.2.1"
+
+[[bin]]
+name = "bitcoin_verify_script"
+path = "src/bin/main.rs"
+
+[[bin]]
+name = "evm"
+path = "src/bin/evm.rs"
+
+[[bin]]
+name = "vkey"
+path = "src/bin/vkey.rs"
+
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"

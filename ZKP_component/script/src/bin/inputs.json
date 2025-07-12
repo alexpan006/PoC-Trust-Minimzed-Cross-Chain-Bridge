@@ -1,0 +1,36 @@
+{
+  "merkle_proof": {
+    "siblings": [
+      "<sibling_hash_1>",
+      "<sibling_hash_2>"
+    ],
+    "pos": <position_integer>
+  },
+  "chains": {
+    "blocks": [
+      {
+        "block_hash": "<block_hash_1>",
+        "version": <block_version_1>,
+        "parent_hash": "<parent_hash_1>",
+        "merkle_root": "<merkle_root_1>",
+        "timestamp": <timestamp_1>,
+        "difficulty": <difficulty_1>,
+        "nonce": <nonce_1>
+      },
+      {
+        "block_hash": "<block_hash_2>",
+        "version": <block_version_2>,
+        "parent_hash": "<parent_hash_2>",
+        "merkle_root": "<merkle_root_2>",
+        "timestamp": <timestamp_2>,
+        "difficulty": <difficulty_2>,
+        "nonce": <nonce_2>
+      }
+      // ...add more blocks as needed
+    ]
+  },
+  "bit_tx_info": {
+    "raw_tx_hex": "<raw_bitcoin_transaction_hex>"
+  },
+  "burner_btc_address": "<burner_btc_address_or_bridge_address>"
+}

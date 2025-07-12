@@ -1,0 +1,12 @@
+[package]
+name = "lib_struct"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = { workspace = true }
+alloy-primitives = { workspace = true }
+serde = { version = "1.0", features = ["derive"] }
+hex="0.4"
+sha2 = "0.10"
+bitcoin = "0.32.5"
