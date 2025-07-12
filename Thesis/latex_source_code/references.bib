@@ -1,0 +1,466 @@
+@misc{gogol_scaling_2025,
+	title = {Scaling {DeFi} with {ZK} Rollups: Design, Deployment, and Evaluation of a Real-Time Proof-of-Concept},
+	url = {http://arxiv.org/abs/2506.00500},
+	doi = {10.48550/arXiv.2506.00500},
+	shorttitle = {Scaling {DeFi} with {ZK} Rollups},
+	abstract = {Ethereum's scalability limitations pose significant challenges for the adoption of decentralized applications ({dApps}). Zero-Knowledge Rollups ({ZK} Rollups) present a promising solution, bundling transactions off-chain and submitting validity proofs on-chain to enhance throughput and efficiency. In this work, we examine the technical underpinnings of {ZK} Rollups and stress test their performance in real-world applications in decentralized finance ({DeFi}). We set up a proof-of-concept ({PoC}) consisting of {ZK} rollup and decentralized exchange, and implement load balancer generating token swaps. Our results show that the rollup can process up to 71 swap transactions per second, compared to 12 general transaction by Ethereum. We further analyze transaction finality trade-offs with related security concerns, and discuss the future directions for integrating {ZK} Rollups into Ethereum's broader ecosystem.},
+	number = {{arXiv}:2506.00500},
+	publisher = {{arXiv}},
+	author = {Gogol, Krzysztof and Gurgul, Szczepan and Siddiqui, Faizan Nehal and Branes, David and Tessone, Claudio},
+	date = {2025-05-31},
+	eprinttype = {arxiv},
+	eprint = {2506.00500 [cs]},
+	note = {version: 1},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+@online{noauthor_danksharding_2024,
+	title = {Danksharding: Scaling Ethereum},
+	url = {https://www.bitgo.com/resources/blog/danksharding-scaling-ethereum/},
+	shorttitle = {Danksharding},
+	abstract = {Concerns and solutions surrounding Ethereum’s scalability},
+	titleaddon = {The Leader in Digital Asset Custody, Wallets \& Financial Services},
+	date = {2024-02-16},
+	langid = {english},
+}
+
+@online{noauthor_ethereum_nodate_roadmap,
+	title = {Ethereum Roadmap},
+	url = {https://ethroadmap.com/},
+}
+
+@inproceedings{chauhan_blockchain_2018,
+	title = {Blockchain and Scalability},
+	url = {https://ieeexplore.ieee.org/abstract/document/8431962},
+	doi = {10.1109/QRS-C.2018.00034},
+	abstract = {Bitcoin has shown great utility around the world with the drastic increase in its value and global consensus method of proof-of-work ({POW}). Over the years after the revolution in the digital transaction space, we are looking at major scalability issue with old {POW} consensus method and bitcoin peak limit of processing only 7 transactions per second. With more companies trying to adopt blockchain to modify their existing systems, blockchain working on old consensus methods and with scalability issues can't deliver the optimal solution. Specifically, with new trends like smart contracts and {DAPPs}, much better performance is needed to support any actual business applications. Such requirements are pushing the new platforms away from old methods of consensus and adoption of off-chain solutions. In this paper, we discuss various scalability issues with the Bitcoin and Ethereum blockchain and recent proposals like the lighting protocol, sharding, super quadratic sharding, {DPoS} to solve these issues. We also draw the comparison between these proposals on their ability to overcome scalability limits and highlighting major problems in these approaches. In the end, we propose our solution to suffice the scalability issue and conclude with the fact that with better scalability, blockchain has the potential to outrageously support varied domains of the industry.},
+	eventtitle = {2018 {IEEE} International Conference on Software Quality, Reliability and Security Companion ({QRS}-C)},
+	pages = {122--128},
+	booktitle = {2018 {IEEE} International Conference on Software Quality, Reliability and Security Companion ({QRS}-C)},
+	author = {Chauhan, Anamika and Malviya, Om Prakash and Verma, Madhav and Mor, Tejinder Singh},
+	date = {2018-07},
+	keywords = {Bitcoin, Blockchain, Bitcoin, Ethereum, Lightning Protocol, Sharding, {DPoS}, Inspector Node, Contracts, Information technology, Protocols, Scalability},
+}
+
+
+
+
+
+
+@misc{wu_safeguarding_2024,
+	title = {Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges},
+	url = {http://arxiv.org/abs/2410.14493},
+	doi = {10.48550/arXiv.2410.14493},
+	shorttitle = {Safeguarding Blockchain Ecosystem},
+	abstract = {Cross-chain bridges are essential decentralized applications ({DApps}) to facilitate interoperability between different blockchain networks. Unlike regular {DApps}, the functionality of cross-chain bridges relies on the collaboration of information both on and off the chain, which exposes them to a wider risk of attacks. According to our statistics, attacks on cross-chain bridges have resulted in losses of nearly 4.3 billion dollars since 2021. Therefore, it is particularly necessary to understand and detect attacks on cross-chain bridges. In this paper, we collect the largest number of cross-chain bridge attack incidents to date, including 49 attacks that occurred between June 2021 and September 2024. Our analysis reveal that attacks against cross-chain business logic cause significantly more damage than those that do not. These cross-chain attacks exhibit different patterns compared to normal transactions in terms of call structure, which effectively indicates potential attack behaviors. Given the significant losses in these cases and the scarcity of related research, this paper aims to detect attacks against cross-chain business logic, and propose the {BridgeGuard} tool. Specifically, {BridgeGuard} models cross-chain transactions from a graph perspective, and employs a two-stage detection framework comprising global and local graph mining to identify attack patterns in cross-chain transactions. We conduct multiple experiments on the datasets with 203 attack transactions and 40,000 normal cross-chain transactions. The results show that {BridgeGuard}'s reported recall score is 36.32{\textbackslash}\% higher than that of state-of-the-art tools and can detect unknown attack transactions.},
+	number = {{arXiv}:2410.14493},
+	publisher = {{arXiv}},
+	author = {Wu, Jiajing and Lin, Kaixin and Lin, Dan and Zhang, Bozhao and Wu, Zhiying and Su, Jianzhong},
+	date = {2024-10-18},
+	eprinttype = {arxiv},
+	eprint = {2410.14493 [cs]},
+	note = {version: 1},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+
+@misc{hossain_unraveling_2025,
+	title = {Unraveling Ethereum's Mempool: The Impact of Fee Fairness, Transaction Prioritization, and Consensus Efficiency},
+	url = {http://arxiv.org/abs/2506.07988},
+	doi = {10.48550/arXiv.2506.07988},
+	shorttitle = {Unraveling Ethereum's Mempool},
+	abstract = {Ethereum's transaction pool (mempool) dynamics and fee market efficiency critically affect transaction inclusion, validator workload, and overall network performance. This research empirically analyzes gas price variations, mempool clearance rates, and block finalization times in Ethereum's proof-of-stake ecosystem using real-time data from Geth and Prysm nodes. We observe that high-fee transactions are consistently prioritized, while low-fee transactions face delays or exclusion despite {EIP}-1559's intended improvements. Mempool congestion remains a key factor in validator efficiency and proposal latency. We provide empirical evidence of persistent fee-based disparities and show that extremely high fees do not always guarantee faster confirmation, revealing inefficiencies in the current fee market. To address these issues, we propose congestion-aware fee adjustments, reserved block slots for low-fee transactions, and improved handling of out-of-gas vulnerabilities. By mitigating prioritization bias and execution inefficiencies, our findings support more equitable transaction inclusion, enhance validator performance, and promote scalability. This work contributes to Ethereum's long-term decentralization by reducing dependence on high transaction fees for network participation.},
+	number = {{arXiv}:2506.07988},
+	publisher = {{arXiv}},
+	author = {Hossain, S. M. Mostaq and Altarawneh, Amani},
+	date = {2025-06-09},
+	eprinttype = {arxiv},
+	eprint = {2506.07988 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+
+
+
+
+@article{kasahara_effect_2019,
+	title = {Effect of Bitcoin fee on transaction-confirmation process},
+	volume = {15},
+	issn = {1553-166X},
+	url = {http://arxiv.org/abs/1604.00103},
+	doi = {10.3934/jimo.2018047},
+	abstract = {In Bitcoin system, transactions are prioritized according to transaction fees. Transactions without fees are given low priority and likely to wait for confirmation. Because the demand of micro payment in Bitcoin is expected to increase due to low remittance cost, it is important to quantitatively investigate how transactions with small fees of Bitcoin affect the transaction-confirmation time. In this paper, we analyze the transaction-confirmation time by queueing theory. We model the transaction-confirmation process of Bitcoin as a priority queueing system with batch service, deriving the mean transaction-confirmation time. Numerical examples show how the demand of transactions with low fees affects the transaction-confirmation time. We also consider the effect of the maximum block size on the transaction-confirmation time.},
+	pages = {365--386},
+	number = {1},
+	journaltitle = {Journal of Industrial \& Management Optimization},
+	author = {Kasahara, Shoji and Kawahara, Jun},
+	date = {2019},
+	eprinttype = {arxiv},
+	eprint = {1604.00103 [cs]},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Performance},
+}
+
+
+
+@inproceedings{decker_information_2013,
+	title = {Information propagation in the Bitcoin network},
+	url = {https://ieeexplore.ieee.org/document/6688704},
+	doi = {10.1109/P2P.2013.6688704},
+	abstract = {Bitcoin is a digital currency that unlike traditional currencies does not rely on a centralized authority. Instead Bitcoin relies on a network of volunteers that collectively implement a replicated ledger and verify transactions. In this paper we analyze how Bitcoin uses a multi-hop broadcast to propagate transactions and blocks through the network to update the ledger replicas. We then use the gathered information to verify the conjecture that the propagation delay in the network is the primary cause for blockchain forks. Blockchain forks should be avoided as they are symptomatic for inconsistencies among the replicas in the network. We then show what can be achieved by pushing the current protocol to its limit with unilateral changes to the client's behavior.},
+	eventtitle = {{IEEE} P2P 2013 Proceedings},
+	pages = {1--10},
+	booktitle = {{IEEE} P2P 2013 Proceedings},
+	author = {Decker, Christian and Wattenhofer, Roger},
+	date = {2013-09},
+	note = {{ISSN}: 2161-3567},
+	keywords = {Buildings, Conferences, Delays, History, Peer-to-peer computing, Protocols, Synchronization},
+}
+
+@inproceedings{croman_scaling_2016,
+	location = {Berlin, Heidelberg},
+	title = {On Scaling Decentralized Blockchains},
+	isbn = {978-3-662-53357-4},
+	doi = {10.1007/978-3-662-53357-4_8},
+	abstract = {The increasing popularity of blockchain-based cryptocurrencies has made scalability a primary and urgent concern. We analyze how fundamental and circumstantial bottlenecks in Bitcoin limit the ability of its current peer-to-peer overlay network to support substantially higher throughputs and lower latencies. Our results suggest that reparameterization of block size and intervals should be viewed only as a first increment toward achieving next-generation, high-load blockchain protocols, and major advances will additionally require a basic rethinking of technical approaches. We offer a structured perspective on the design space for such approaches. Within this perspective, we enumerate and briefly discuss a number of recently proposed protocol ideas and offer several new ideas and open challenges.},
+	pages = {106--125},
+	booktitle = {Financial Cryptography and Data Security},
+	publisher = {Springer},
+	author = {Croman, Kyle and Decker, Christian and Eyal, Ittay and Gencer, Adem Efe and Juels, Ari and Kosba, Ahmed and Miller, Andrew and Saxena, Prateek and Shi, Elaine and Gün Sirer, Emin and Song, Dawn and Wattenhofer, Roger},
+	editor = {Clark, Jeremy and Meiklejohn, Sarah and Ryan, Peter Y.A. and Wallach, Dan and Brenner, Michael and Rohloff, Kurt},
+	date = {2016},
+	langid = {english},
+	keywords = {Block Size, Effective Throughput, Maximum Throughput, Network Plane, Overlay Network},
+}
+
+@article{poon_bitcoin_nodate,
+	title = {The Bitcoin Lightning Network:},
+	abstract = {The bitcoin protocol can encompass the global ﬁnancial transaction volume in all electronic payment systems today, without a single custodial third party holding funds or requiring participants to have anything more than a computer using a broadband connection. A decentralized system is proposed whereby transactions are sent over a network of micropayment channels (a.k.a. payment channels or transaction channels) whose transfer of value occurs oﬀ-blockchain. If Bitcoin transactions can be signed with a new sighash type that addresses malleability, these transfers may occur between untrusted parties along the transfer route by contracts which, in the event of uncooperative or hostile participants, are enforceable via broadcast over the bitcoin blockchain in the event of uncooperative or hostile participants, through a series of decrementing timelocks.},
+	author = {Poon, Joseph and Dryja, Thaddeus},
+	langid = {english},
+}
+
+@article{gervais_security_2016,
+	title = {On the Security and Performance of Proof of Work Blockchains},
+	url = {https://dl.acm.org/doi/10.1145/2976749.2978341},
+	doi = {10.1145/2976749.2978341},
+	abstract = {Proof of Work ({PoW}) powered blockchains currently account for more than 90\% of the total market capitalization of existing digital cryptocurrencies. Although the security provisions of Bitcoin have been thoroughly analysed, the security guarantees of variant (forked) {PoW} blockchains (which were instantiated with different parameters) have not received much attention in the literature. This opens the question whether existing security analysis of Bitcoin's {PoW} applies to other implementations which have been instantiated with different consensus and/or network parameters. In this paper, we introduce a novel quantitative framework to analyse the security and performance implications of various consensus and network parameters of {PoW} blockchains. Based on our framework, we devise optimal adversarial strategies for double-spending and selfish mining while taking into account real world constraints such as network propagation, different block sizes, block generation intervals, information propagation mechanism, and the impact of eclipse attacks. Our framework therefore allows us to capture existing {PoW}-based deployments as well as {PoW} blockchain variants that are instantiated with different parameters, and to objectively compare the tradeoffs between their performance and security provisions.},
+	pages = {3--16},
+	journaltitle = {Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and Communications Security},
+	author = {Gervais, Arthur and Karame, Ghassan O. and Wüst, Karl and Glykantzis, Vasileios and Ritzdorf, Hubert and Capkun, Srdjan},
+	date = {2016-10-24},
+	langid = {english},
+	note = {Conference Name: {CCS}'16: 2016 {ACM} {SIGSAC} Conference on Computer and Communications Security
+{ISBN}: 9781450341394
+Place: Vienna Austria
+Publisher: {ACM}},
+}
+
+@article{eyal_bitcoin-ng_nodate,
+	title = {Bitcoin-{NG}: A Scalable Blockchain Protocol},
+	abstract = {Cryptocurrencies, based on and led by Bitcoin, have shown promise as infrastructure for pseudonymous online payments, cheap remittance, trustless digital asset exchange, and smart contracts. However, Bitcoinderived blockchain protocols have inherent scalability limits that trade off between throughput and latency, which withhold the realization of this potential.},
+	author = {Eyal, Ittay and Gencer, Adem Efe and Sirer, Emin Gün and van Renesse, Robbert},
+	langid = {english},
+}
+
+@article{nakamoto_bitcoin_nodate,
+	title = {Bitcoin: A Peer-to-Peer Electronic Cash System},
+	abstract = {A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of {CPU} power. As long as a majority of {CPU} power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.},
+	author = {Nakamoto, Satoshi},
+	langid = {english},
+}
+
+@article{maharjan_performance_nodate,
+	title = {Performance Analysis of Blockchain Platforms},
+	url = {https://digitalscholarship.unlv.edu/thesesdissertations/3367},
+	doi = {10.34917/14139888},
+	abstract = {Blockchain technologies have drawn massive attention to the world these past few years mostly because of the burst of cryptocurrencies like Bitcoin, Etherium, Ripple and many others. A Blockchain, also known as distributed ledger technology, has demonstrated huge potential in saving time and costs. This open-source technology which generates a decentralized public ledger of transactions is widely appreciated for ensuring a high level of privacy through encryption and thus sharing the transaction details only amongst the participants involved in the transactions. The Blockchain is used not only for cryptocurrency but also by various companies to meet their business ends, such as efficient management of supply chains and logistics. The rise and fall of numerous crypto-currencies based on blockchain technology have generated debate among tech-giants and regulatory bodies. There are various groups which are working on standardizing the blockchain technology. At the same time, numerous groups are actively working, developing and fine-tuning their own blockchain platforms. Platforms such as etherium, hyperledger, parity, etc. have their own pros and cons. This research is focused on the performance analysis of blockchain platforms which gives a comparative understanding of these platforms.},
+	author = {Maharjan, Pradip Singh},
+	langid = {english},
+	note = {Publisher: University of Nevada, Las Vegas},
+}
+
+@inbook{moser_trends_2015,
+	location = {Berlin, Heidelberg},
+	title = {Trends, Tips, Tolls: A Longitudinal Study of Bitcoin Transaction Fees},
+	rights = {https://www.springernature.com/gp/researchers/text-and-data-mining},
+	isbn = {978-3-662-48050-2 978-3-662-48051-9},
+	url = {https://link.springer.com/10.1007/978-3-662-48051-9_2},
+	shorttitle = {Trends, Tips, Tolls},
+	abstract = {The Bitcoin protocol supports optional direct payments from transaction partners to miners. These “fees” are supposed to substitute miners’ minting rewards in the long run. Acknowledging their role for the stability of the system, the right level of transaction fees is a hot topic of normative debates. This paper contributes empirical evidence from a historical analysis of agents’ revealed behavior concerning their payment of transaction fees. We identify several regime shifts, which can be largely explained by changes in the default client software or actions of big intermediaries in the ecosystem. Overall, it seems that rules dominate ratio, a state that is sustainable only if fees remain negligible.},
+	pages = {19--33},
+	booktitle = {Lecture Notes in Computer Science},
+	publisher = {Springer Berlin Heidelberg},
+	bookauthor = {Möser, Malte and Böhme, Rainer},
+	date = {2015},
+	langid = {english},
+	doi = {10.1007/978-3-662-48051-9_2},
+	note = {{ISSN}: 0302-9743, 1611-3349},
+}
+
+@misc{gudgeon_sok_2019,
+	title = {{SoK}: Layer-Two Blockchain Protocols},
+	url = {https://eprint.iacr.org/2019/360},
+	shorttitle = {{SoK}},
+	abstract = {Blockchains have the potential to revolutionize markets and services. However, they currently exhibit high latencies and fail to handle transaction loads comparable to those managed by traditional financial systems. Layer-two protocols, built on top of layer-one blockchains, avoid disseminating every transaction to the whole network by exchanging authenticated transactions off-chain. Instead, they utilize the expensive and low-rate blockchain only as a recourse for disputes. The promise of layer-two protocols is to complete off-chain transactions in sub-seconds rather than minutes or hours while retaining asset security, reducing fees and allowing blockchains to scale.
+
+We systematize the evolution of layer-two protocols over the period from the inception of cryptocurrencies in 2009 until today, structuring the multifaceted body of research on layer-two transactions. Categorizing the research into payment and state channels, commit-chains and protocols for refereed delegation, we provide a comparison of the protocols and their properties. We provide a systematization of the associated synchronization and routing protocols along with their privacy and security aspects. This Systematization of Knowledge ({SoK}) clears the layer-two fog, highlights the potential of layer-two solutions and identifies their unsolved challenges, indicating propitious avenues of future work.},
+	number = {2019/360},
+	author = {Gudgeon, Lewis and Moreno-Sanchez, Pedro and Roos, Stefanie and {McCorry}, Patrick and Gervais, Arthur},
+	date = {2019},
+	note = {Publication info: Published elsewhere. Minor revision. Financial Cryptography and Data Security 2020},
+	keywords = {blockchain, commit-chains, payment channels, sok, state channels},
+}
+
+@inproceedings{noauthor_pdf_nodate,
+	title = {Routing Payments on the Lightning Network},
+	url = {https://www.researchgate.net/publication/333599637_Routing_Payments_on_the_Lightning_Network},
+	doi = {10.1109/Cybermatics_2018.2018.00209},
+	abstract = {{\textbar} On Jul 1, 2018, Giovanni Di Stasi and others published Routing Payments on the Lightning Network {\textbar} Find, read and cite all the research you need on {ResearchGate}},
+	booktitle = {{ResearchGate}},
+	langid = {english},
+}
+
+@article{martinazzi_evolving_2020,
+	title = {The evolving topology of the Lightning Network: Centralization, efficiency, robustness, synchronization, and anonymity},
+	volume = {15},
+	issn = {1932-6203},
+	url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225966},
+	doi = {10.1371/journal.pone.0225966},
+	shorttitle = {The evolving topology of the Lightning Network},
+	abstract = {The Lightning Network ({LN}) was released on Bitcoin’s mainnet in January 2018 as a solution to favor scalability. This work analyses the evolution of the {LN} during its first year of existence in order to assess its impact over some of the core fundamentals of Bitcoin, such as: node centralization, resilience against attacks and disruptions, anonymity of users, autonomous coordination of its members. Using a network theory approach, we find that the {LN} represents a centralized configuration with few highly active nodes playing as hubs in that system. We show that the removal of these central nodes is likely to generate a remarkable drop in the {LN}’s efficiency, while the network appears robust to random disruptions. In addition, we observe that improvements in efficiency during the sample period are primarily due to the increase in the capacity installed on the channels, while nodes’ synchronization does not emerge as a distinctive feature of the {LN}. Finally, the analysis of the structure of the network suggests a good preservation of nodes’ identity against attackers with prior knowledge about topological characteristics of their targets, but also that {LN} is probably weak against attackers that are within the system.},
+	pages = {e0225966},
+	number = {1},
+	journaltitle = {{PLOS} {ONE}},
+	shortjournal = {{PLOS} {ONE}},
+	author = {Martinazzi, Stefano and Flori, Andrea},
+	date = {2020-01-15},
+	langid = {english},
+	note = {Publisher: Public Library of Science},
+	keywords = {Algebraic topology, Centrality, Eigenvalues, Network analysis, Network resilience, Operator theory, Payment, Scale-free networks},
+}
+
+@misc{pickhardt_optimally_2021,
+	title = {Optimally Reliable \& Cheap Payment Flows on the Lightning Network},
+	url = {http://arxiv.org/abs/2107.05322},
+	doi = {10.48550/arXiv.2107.05322},
+	abstract = {Today, payment paths in Bitcoin's Lightning Network are found by searching for shortest paths on the fee graph. We enhance this approach in two dimensions. Firstly, we take into account the probability of a payment actually being possible due to the unknown balance distributions in the channels. Secondly, we use minimum cost flows as a proper generalization of shortest paths to multi-part payments ({MPP}). In particular we show that under plausible assumptions about the balance distributions we can find the most likely {MPP} for any given set of senders, recipients and amounts by solving for a (generalized) integer minimum cost flow with a separable and convex cost function. Polynomial time exact algorithms as well as approximations are known for this optimization problem. We present a round-based algorithm of min-cost flow computations for delivering large payment amounts over the Lightning Network. This algorithm works by updating the probability distributions with the information gained from both successful and unsuccessful paths on prior rounds. In all our experiments a single digit number of rounds sufficed to deliver payments of sizes that were close to the total local balance of the sender. Early experiments indicate that our approach increases the size of payments that can be reliably delivered by several orders of magnitude compared to the current state of the art. We observe that finding the cheapest multi-part payments is an {NP}-hard problem considering the current fee structure and propose dropping the base fee to make it a linear min-cost flow problem. Finally, we discuss possibilities for maximizing the probability while at the same time minimizing the fees of a flow. While this turns out to be a hard problem in general as well - even in the single path case - it appears to be surprisingly tractable in practice.},
+	number = {{arXiv}:2107.05322},
+	publisher = {{arXiv}},
+	author = {Pickhardt, Rene and Richter, Stefan},
+	date = {2021-07-12},
+	eprinttype = {arxiv},
+	eprint = {2107.05322 [cs]},
+	keywords = {Computer Science - Networking and Internet Architecture},
+}
+
+
+@misc{riard_time-dilation_2020,
+	title = {Time-Dilation Attacks on the Lightning Network},
+	url = {http://arxiv.org/abs/2006.01418},
+	doi = {10.48550/arXiv.2006.01418},
+	abstract = {Lightning Network ({LN}) is a widely-used network of payment channels enabling faster and cheaper Bitcoin transactions. In this paper, we outline three ways an attacker can steal funds from honest {LN} users. The attacks require dilating the time for victims to become aware of new blocks by eclipsing (isolating) victims from the network and delaying block delivery. While our focus is on the {LN}, time-dilation attacks may be relevant to any second-layer protocol that relies on a timely reaction. According to our measurements, it is currently possible to steal the total channel capacity by keeping a node eclipsed for as little as 2 hours. Since trust-minimized Bitcoin light clients currently connect to a very limited number of random nodes, running just 500 Sybil nodes allows an attacker to Eclipse 47{\textbackslash}\% of newly deployed light clients (and hence prime them for an attack). As for the victims running a full node, since they are often used by large hubs or service providers, an attacker may justify the higher Eclipse attack cost by stealing all their available liquidity. In addition, time-dilation attacks neither require access to hashrate nor purchasing from a victim. Thus, this class of attacks is a more practical way of stealing funds via Eclipse attacks than previously anticipated double-spending. We argue that simple detection techniques based on the slow block arrival alone are not effective, and implementing more sophisticated detection is not trivial. We suggest that a combination of anti-Eclipse/anti-Sybil measures are crucial for mitigating time-dilation attacks.},
+	number = {{arXiv}:2006.01418},
+	publisher = {{arXiv}},
+	author = {Riard, Antoine and Naumenko, Gleb},
+	date = {2020-06-02},
+	eprinttype = {arxiv},
+	eprint = {2006.01418 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+
+
+
+@misc{gangwal_survey_2022,
+	title = {A Survey of Layer-Two Blockchain Protocols},
+	url = {http://arxiv.org/abs/2204.08032},
+	doi = {10.48550/arXiv.2204.08032},
+	abstract = {After the success of the Bitcoin blockchain, came several cryptocurrencies and blockchain solutions in the last decade. Nonetheless, Blockchain-based systems still suffer from low transaction rates and high transaction processing latencies, which hinder blockchains' scalability. An entire class of solutions, called Layer-1 scalability solutions, have attempted to incrementally improve such limitations by adding/modifying fundamental blockchain attributes. Recently, a completely different class of works, called Layer-2 protocols, have emerged to tackle the blockchain scalability issues using unconventional approaches. Layer-2 protocols improve transaction processing rates, periods, and fees by minimizing the use of underlying slow and costly blockchains. In fact, the main chain acts just as an instrument for trust establishment and dispute resolution among Layer-2 participants, where only a few transactions are dispatched to the main chain. Thus, Layer-2 blockchain protocols have the potential to transform the domain. However, rapid and discrete developments have resulted in diverse branches of Layer-2 protocols. In this work, we systematically create a broad taxonomy of such protocols and implementations. We discuss each Layer-2 protocol class in detail and also elucidate their respective approaches, salient features, requirements, etc. Moreover, we outline the issues related to these protocols along with a comparative discussion. Our thorough study will help further systematize the knowledge dispersed in the domain and help the readers to better understand the field of Layer-2 protocols.},
+	number = {{arXiv}:2204.08032},
+	publisher = {{arXiv}},
+	author = {Gangwal, Ankit and Gangavalli, Haripriya Ravali and Thirupathi, Apoorva},
+	date = {2022-07-26},
+	eprinttype = {arxiv},
+	eprint = {2204.08032 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+@online{noauthor_ethereum_nodate_evm,
+	title = {Ethereum Virtual Machine ({EVM})},
+	url = {https://ethereum.org/en/developers/docs/evm/},
+	abstract = {An introduction to the Ethereum virtual machine and how it relates to state, transactions, and smart contracts.},
+	titleaddon = {ethereum.org},
+	langid = {english},
+}
+
+@online{noauthor_optimistic_nodate,
+	title = {Optimistic Rollups},
+	url = {https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/},
+	abstract = {An introduction to optimistic rollups—a scaling solution used by the Ethereum community.},
+	titleaddon = {ethereum.org},
+	langid = {english},
+}
+
+@misc{chaliasos_analyzing_2024,
+	title = {Analyzing and Benchmarking {ZK}-Rollups},
+	url = {https://eprint.iacr.org/2024/889},
+	abstract = {As blockchain technology continues to transform the realm of digital transactions, scalability has emerged as a critical issue. This challenge has spurred the creation of innovative solutions, particularly Layer 2 scalability techniques like rollups. Among these, {ZK}-Rollups are notable for employing Zero-Knowledge Proofs to facilitate prompt on-chain transaction verification, thereby improving scalability and efficiency without sacrificing security. Nevertheless, the intrinsic complexity of {ZK}-Rollups has hindered an exhaustive evaluation of their efficiency, economic impact, and performance.
+
+This paper offers a theoretical and empirical examination aimed at comprehending and evaluating {ZK}-Rollups, with particular attention to {ZK}-{EVMs}. We conduct a qualitative analysis to break down the costs linked to {ZK}-Rollups and scrutinize the design choices of well-known implementations. Confronting the inherent difficulties in benchmarking such intricate systems, we introduce a systematic methodology for their assessment, applying our method to two prominent {ZK}-Rollups: Polygon {zkEVM} and {zkSync} Era. Our research provides initial findings that illuminate trade-offs and areas for enhancement in {ZK}-Rollup implementations, delivering valuable insights for future research, development, and deployment of these systems.},
+	number = {2024/889},
+	author = {Chaliasos, Stefanos and Reif, Itamar and Torralba-Agell, Adrià and Ernstberger, Jens and Kattis, Assimakis and Livshits, Benjamin},
+	date = {2024},
+	note = {Publication info: Published elsewhere. 6th Conference on Advances in Financial Technologies ({AFT} 2024},
+	keywords = {Benchmarking, Blockchain Scalability, Zero-Knowledge Proofs, {ZK}-Rollups},
+}
+
+@online{proposals_eip-4844_nodate,
+	title = {{EIP}-4844: Shard Blob Transactions},
+	url = {https://eips.ethereum.org/EIPS/eip-4844},
+	shorttitle = {{EIP}-4844},
+	abstract = {Shard Blob Transactions scale data-availability of Ethereum in a simple, forwards-compatible manner.},
+	titleaddon = {Ethereum Improvement Proposals},
+	author = {Proposals, Ethereum Improvement},
+	langid = {english},
+}
+
+@misc{park_impact_2024,
+	title = {Impact of {EIP}-4844 on Ethereum: Consensus Security, Ethereum Usage, Rollup Transaction Dynamics, and Blob Gas Fee Markets},
+	url = {http://arxiv.org/abs/2405.03183},
+	doi = {10.48550/arXiv.2405.03183},
+	shorttitle = {Impact of {EIP}-4844 on Ethereum},
+	abstract = {On March 13, 2024, Ethereum implemented {EIP}-4844, designed to enhance its role as a data availability layer. While this upgrade reduces data posting costs for rollups, it also raises concerns about its impact on the consensus layer due to increased propagation sizes. Moreover, the broader effects on the overall Ethereum ecosystem remain largely unexplored. In this paper, we conduct an empirical analysis of the impact of {EIP}-4844 on consensus security, Ethereum usage, rollup transaction dynamics, and the blob gas fee mechanism. We explore changes in synchronization times, provide quantitative assessments of rollup and user behaviors, and deepen the understanding of the blob gas fee mechanism, highlighting both enhancements and areas of concern post-upgrade.},
+	number = {{arXiv}:2405.03183},
+	publisher = {{arXiv}},
+	author = {Park, Seongwan and Mun, Bosul and Lee, Seungyun and Jeong, Woojin and Lee, Jaewook and Eom, Hyeonsang and Jang, Huisu},
+	date = {2024-05-06},
+	eprinttype = {arxiv},
+	eprint = {2405.03183 [cs]},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Numerical Analysis, Mathematics - Numerical Analysis},
+}
+
+@misc{belenkov_sok_2025,
+	title = {{SoK}: A Review of Cross-Chain Bridge Hacks in 2023},
+	url = {http://arxiv.org/abs/2501.03423},
+	doi = {10.48550/arXiv.2501.03423},
+	shorttitle = {{SoK}},
+	abstract = {Blockchain technology has revolutionized industries by enabling secure and decentralized transactions. However, the isolated nature of blockchain ecosystems hinders the seamless transfer of digital assets across different chains. Cross-chain bridges have emerged as vital web3 infrastructure to address this challenge by facilitating interoperability between distinct blockchains. Cross-chain bridges remain vulnerable to various attacks despite sophisticated designs and security measures. The industry has experienced a surge in bridge attacks, resulting in significant financial losses. The largest hack impacted Axie Infinity Ronin Bridge, with a loss of almost {\textbackslash}\$600 million {USD}. This paper analyzes recent cross-chain bridge hacks in 2022 and 2023 and examines the exploited vulnerabilities. By understanding the attack nature and underlying weaknesses, the paper aims to enhance bridge security and propose potential countermeasures. The findings contribute to developing industry-wide standards for bridge security and operational resilience. Addressing the vulnerabilities and weaknesses exploited in recent cross-chain bridge hacks fosters trust and confidence in cross-chain interoperability.},
+	number = {{arXiv}:2501.03423},
+	publisher = {{arXiv}},
+	author = {Belenkov, Nikita and Callens, Valerian and Murashkin, Alexandr and Bak, Kacper and Derka, Martin and Gorzny, Jan and Lee, Sung-Shine},
+	date = {2025-01-06},
+	eprinttype = {arxiv},
+	eprint = {2501.03423 [cs]},
+	note = {version: 1},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+@misc{notland_sok_2024,
+	title = {{SoK}: Cross-Chain Bridging Architectural Design Flaws and Mitigations},
+	url = {http://arxiv.org/abs/2403.00405},
+	doi = {10.48550/arXiv.2403.00405},
+	shorttitle = {{SoK}},
+	abstract = {Cross-chain bridges are solutions that enable interoperability between heterogeneous blockchains. In contrast to the underlying blockchains, the bridges often provide inferior security guarantees and have been targets of hacks causing damage in the range of 1.5 to 2 billion {USD} in 2022. The current state of bridge architectures is that they are ambiguous, and there is next to no notion of how different architectures and their components are related to different vulnerabilities. Throughout this study, we have analysed 60 different bridges and 34 bridge exploits in the last three years (2021-2023). Our analyses identified 13 architectural components of the bridges. We linked the components to eight types of vulnerabilities, also called design flaws. We identified prevention measures and proposed 11 impact reduction measures based on the existing and possible countermeasures to address the imminent exploits of the design flaws. The results are meant to be used as guidelines for designing and implementing secure cross-chain bridge architectures, preventing design flaws, and mitigating the negative impacts of exploits.},
+	number = {{arXiv}:2403.00405},
+	publisher = {{arXiv}},
+	author = {Notland, Jakob Svennevik and Li, Jinguye and Nowostawski, Mariusz and Haro, Peter Halland},
+	date = {2024-03-01},
+	eprinttype = {arxiv},
+	eprint = {2403.00405 [cs]},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+@misc{zamyatin_sok_2019,
+	title = {{SoK}: Communication Across Distributed Ledgers},
+	url = {https://eprint.iacr.org/2019/1128},
+	shorttitle = {{SoK}},
+	abstract = {Since the inception of Bitcoin, a plethora of distributed ledgers differing in design and purpose has been created. While by design, blockchains provide no means to securely communicate with external systems, numerous attempts towards trustless cross-chain communication have been proposed over the years. Today, cross-chain communication ({CCC}) plays a fundamental role in cryptocurrency exchanges, scalability efforts via sharding, extension of existing systems through sidechains, and bootstrapping of new blockchains. Unfortunately, existing proposals are designed ad-hoc for specific use-cases, making it hard to gain confidence in their correctness and composability.
+
+We provide the first systematic exposition of cross-chain communication protocols. We formalize the underlying research problem and show that {CCC} is impossible without a trusted third party, contrary to common beliefs in the blockchain community. With this result in mind, we develop a framework to design new and evaluate existing {CCC} protocols, focusing on the inherent trust assumptions thereof, and derive a classification covering the field of cross-chain communication to date. We conclude by discussing open challenges for {CCC} research and the implications of interoperability on the security and privacy of blockchains.},
+	number = {2019/1128},
+	author = {Zamyatin, Alexei and Al-Bassam, Mustafa and Zindros, Dionysis and Kokoris-Kogias, Eleftherios and Moreno-Sanchez, Pedro and Kiayias, Aggelos and Knottenbelt, William J.},
+	date = {2019},
+	note = {Publication info: Published elsewhere. Major revision. Financial Cryptography and Data Security 2021},
+	keywords = {blockchains, cross-chain communication, distributed ledgers, interoperability},
+}
+
+@online{team_introduction_2024,
+	title = {Introduction to Cross-Chain Bridges},
+	url = {https://www.chainalysis.com/blog/introduction-to-cross-chain-bridges/},
+	abstract = {Cross-chain bridges allow blockchains to securely share data and assets using a messaging system between multiple chains.},
+	titleaddon = {Chainalysis},
+	author = {Team, Chainalysis},
+	date = {2024-12-05},
+	langid = {american},
+}
+
+@online{team_cross-chain_2022,
+	title = {Cross-Chain Bridge Hacks Emerge as Top Security Risk},
+	url = {https://www.chainalysis.com/blog/cross-chain-bridge-hacks-2022/},
+	abstract = {We estimate \$2 billion in crypto has been stolen in 13 cross-chain bridge hacks so far in 2022. Learn about cross-chain bridge protocol vulnerabilities.},
+	titleaddon = {Chainalysis},
+	author = {Team, Chainalysis},
+	date = {2022-08-02},
+	langid = {american},
+}
+
+
+@article{thomas_protocol_nodate,
+	title = {A Protocol for Interledger Payments},
+	abstract = {We present a protocol for payments across payment systems. It enables secure transfers between ledgers and allows anyone with accounts on two ledgers to create a connection between them. Ledger-provided escrow removes the need to trust these connectors. Connections can be composed to enable payments between any ledgers, creating a global graph of liquidity or Interledger.},
+	author = {Thomas, Stefan and Schwartz, Evan},
+	langid = {english},
+}
+
+@article{linus_bitvm2_nodate,
+	title = {{BitVM}2: Bridging Bitcoin to Second Layers},
+	abstract = {{BitVM}2 is a novel paradigm that enables arbitrary program execution in Bitcoin, thereby combining Turing-complete expressiveness with the security of Bitcoin consensus. At its core, {BitVM}2 leverages optimistic computation, assuming operators are honest unless proven otherwise by challengers through fraud proofs, and {SNARK} proof verification scripts, which are split into sub-programs that are executed within Bitcoin transactions. As a result, {BitVM}2 ensures program correctness with just three on-chain transactions. {BitVM}2 significantly improves over prior {BitVM} designs by enabling, for the first time, permissionless challenging and by reducing the complexity and number of on-chain transactions required to resolve disputes. Our construction requires no consensus changes to Bitcoin.},
+	author = {Linus, Robin and Aumayr, Lukas and Zamyatin, Alexei and Pelosi, Andrea and Avarikioti, Zeta and Maffei, Matteo},
+	langid = {english},
+}
+
+@online{noauthor_tbtc_2025,
+	title = {{tBTC} Bitcoin Bridge {\textbar} Threshold Docs},
+	url = {https://docs.threshold.network/applications/tbtc-v2},
+	abstract = {A Decentralized, Permissionless Bitcoin Bridge to {DeFi}},
+	langid = {english},
+}
+@misc{hemi2025,
+  author       = {{Hemi Network}},
+  title        = {The Hemi Network: A modular protocol for superior scaling, security, and interoperability with Bitcoin and Ethereum},
+  year         = {2025},
+  note         = {Current Draft: January 20, 2025. First Draft: August 29, 2023},
+  url          = {https://hemi.xyz},
+}
+
+@online{noauthor_sp1-contractscontractssrcisp1verifiergatewaysol_nodate,
+	title = {sp1-contracts/contracts/src/{ISP}1VerifierGateway.sol at main · succinctlabs/sp1-contracts},
+	url = {https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/ISP1VerifierGateway.sol},
+	abstract = {Smart contracts for onchain verification of {SP}1. Contribute to succinctlabs/sp1-contracts development by creating an account on {GitHub}.},
+	titleaddon = {{GitHub}},
+	langid = {english},
+}
+
+
+@online{noauthor_zksync_nodate,
+	title = {{ZkSync} Era stats - {ZkSync} Era network insights {\textbar} Blockscout},
+	url = {https://zksync.blockscout.com/stats},
+	abstract = {Open-source block explorer by Blockscout. Search transactions, verify smart contracts, analyze addresses, and track network activity. Complete blockchain data and {APIs} for the {ZkSync} Era ({ZkSync} Era) Explorer network.},
+	langid = {english},
+}
+
+@online{noauthor_bitcoin_2025,
+	title = {Bitcoin Median Transaction Fees},
+	url = {https://www.dune.com/queries/5417859/8846732},
+	abstract = {Bitcoin Median Transaction Fees over past 1 year},
+	date = {2025-07-04},
+	langid = {english},
+}
+
+@online{noauthor_bitcoin_nodate,
+	title = {Bitcoin Transaction Size and Fee Estimator},
+	url = {https://blockchain-academy.hs-mittweida.de/bitcoin-transaction-size-and-fee-estimator/},
+	abstract = {Calculate the size and fee for your transaction.},
+	titleaddon = {Blockchain Academy},
+	langid = {british},
+}
