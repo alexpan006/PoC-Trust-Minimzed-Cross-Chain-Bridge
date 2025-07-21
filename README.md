@@ -60,7 +60,7 @@ If you use this project or the concepts from the thesis in your research, please
 ```bibtex
 @mastersthesis{Pan2025r,
   author  = {Kai-Yan},
-  title   = {PoC of a Trust-Minimized Cross-Chain Bridge for Bitcoin Layer 1 to Ethereum Layer 2},
+  title   = {PoC of a Trust-Minimized Cross-Chain Bridge from Bitcoin Layer 1 to Ethereum Layer 2},
   school  = {University of Mannheim},
   year    = {2025},
   address = {New Taipei City, Taiwan},
